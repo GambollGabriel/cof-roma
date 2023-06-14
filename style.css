@@ -11,11 +11,13 @@ header{
     text-align: center;
     height: 220px;
 }
-img{
+
+#logo{
     width: 160px;
     padding: 10px;
     border-radius: 80px;
 }
+
 a{
     background-color: antiquewhite;
     color: rgb(45, 158, 158);
@@ -23,18 +25,25 @@ a{
     text-decoration: none;
     padding: 5px;
 }
+
 a:hover{
     border: 2px #e7ae88 solid;
 }
+
 main{
     margin-top: 20px;
     max-width: 300px;
     text-align: justify;
     margin-left: 100px;
 }
+
 section{
-    max-width: 900px;
+    max-width: 700px;
     min-width: 320px;
+    text-align: center;
     margin: auto;
-    margin-top: 20px;
+}
+
+img{
+    width: 100%;
 }
