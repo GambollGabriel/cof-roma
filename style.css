@@ -32,9 +32,15 @@ a:hover{
 
 main{
     margin-top: 20px;
-    max-width: 300px;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+}
+
+#texto{
+    max-width: 200px;
+    min-width: 320px;
     text-align: justify;
-    margin-left: 100px;
 }
 
 section{
